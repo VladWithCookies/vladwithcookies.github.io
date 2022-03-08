@@ -1,9 +1,32 @@
-body, h1, h2, h3 {
+body {
   margin: 0;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #212121;
+  background-color: #fafafa;
 }
 
-body {
-  font-family: Helvetica;
+h1 {
+  margin: 0;
+  display: block;
+  color: #006064;
+}
+
+h2 {
+  margin: 0 0 1rem 0;
+  color: #006064;
+  border-bottom: 4px solid #006064;
+}
+
+h3, h4 {
+  margin: 0;
+  color: #006064;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 .general-info {
@@ -22,12 +45,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: white;
-  background-color: navy;
+  background-color: #EEEEEE;
 }
 
 .general-info__text a {
-  color: white;
+  color: #212121;
+}
+
+.general-info__position {
+  font-weight: 600;
 }
 
 .detailed-info {
@@ -38,6 +64,8 @@ body {
   box-sizing: border-box;
   min-width: 250px;
   padding: 30px;
+  background-color: #006064;
+  color: #fafafa
 }
 
 .detailed-info__main {
