@@ -3,7 +3,7 @@ body {
   font-family: Helvetica;
   font-size: 18px;
   color: #212121;
-  background-color: #fafafa;
+  background-color: #FAFAFA;
 }
 
 h1 {
@@ -65,7 +65,7 @@ ul {
   min-width: 250px;
   padding: 30px;
   background-color: #006064;
-  color: #fafafa
+  color: #FAFAFA;
 }
 
 .detailed-info__main {
